@@ -1,32 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="bg-gray-100">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Young Achieverz</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
   <body>
-<!--Box that'll contain the money being added and subtracted from savings -->
-    <section class="container mx-auto px-4 border-solid border-2 border-black ">
-      <h2 class="text-center">Income and Expenses</h2>
-  <div class="columns-2" >
-    <div class="py-2">
-    <label for="Money">Income</label>
-    <input type="number" id="add" placeholder="+"/>
-  </div>
-  <div class="py-2">
-    <label for="Expense">Expense</label>
-    <input type="number" id="subtract" placeholder="-"/>
-  </div>
-</div>
-  <div class="text-center pl-40">
-    <label for="Current" >Current Savings</label>
-    <input type="number" id="total" placeholder="$"/>
-  </div>
-    </section>
-
-    <script src="script.js"></script>
+    <div class=" m-14 p-0.5">
+      <div class="flex-col">
+        <div class="flex outline justify-between content-between items-center w-[50%]">
+          <div class="flex justify-between content-betweeen items-center m-6">
+            <div>Goal Title:</div>
+            <input
+              type="text"
+              placeholder="Type here"
+              class="input input-bordered w-full"
+            />
+          </div>
+        </div>
+        <div class="flex outline justify-between content-between items-center w-[50%]">
+          <div class="flex justify-between content-betweeen items-center m-6">
+            <div>Description:</div>
+            <input
+              type="text"
+              placeholder="Type here"
+              class="input input-bordered w-full"
+            />
+          </div>
+        </div>
+        <div class="flex outline justify-between content-between items-center w-[50%]">
+          <div class="flex justify-between content-betweeen items-center m-6">
+            <div>Income Source:</div>
+            <input
+              type="text"
+              placeholder="Type here"
+              class="input input-bordered w-full"
+            />
+          </div>
+        </div>
+        <div class="flex outline justify-between content-between items-center w-[50%]">
+          <div class="flex justify-between content-betweeen items-center m-6">
+            <div>Current Amount:</div>
+            <input
+              type="text"
+              placeholder="Type here"
+              class="input input-bordered w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
