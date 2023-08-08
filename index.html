@@ -8,7 +8,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-  
+
+    <section class="container mx-auto px-4 border-solid border-2 border-black ">
+      <h2 class="text-center">Income and Expenses</h2>
+  <div class="columns-2" >
+    <div class="py-2">
+    <label for="Money">Income</label>
+    <input type="number" id="add" placeholder="+"/>
+  </div>
+  <div class="py-2">
+    <label for="Expense">Expense</label>
+    <input type="number" id="subtract" placeholder="-"/>
+  </div>
+</div>
+  <div class="text-center pl-40">
+    <label for="Current" >Current Savings</label>
+    <input type="number" id="total" placeholder="$"/>
+  </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
